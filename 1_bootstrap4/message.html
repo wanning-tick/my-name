@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+
+    <title>WebMod</title>
+
+    <!-- Bootstarp corn css-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--Custom style for this web-->
+    <link href="css/modern-business.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">   <!-- container让导航条居中container-fluid让导航条自适应 -->　
+        <a class="navbar-brand" href="index.html">CourseRecommend</a>
+        <!-- 代表响应式布局：当浏览器宽度小于某个值时导航栏折叠变成三道杠 -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Browse.html">全部课程</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Recommend">推荐</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Hot">热门</a>
+                </li>
+            </ul>
+
+            <form class="form-inline ml-auto">
+                  <input class="form-control" type="text" placeholder="查询课程...">
+                  <button class="btn btn-success" type="button">搜索</button>
+            </form>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">登录 | 注册</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Page Content-->
+<div>
+    <!-- 用户头像 -->
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-2">
+            <img src="#" width="100" height="100">
+        </div>
+        <div class="username col-lg-2">
+            <span class="name">用户名</span>
+        </div>
+        <button class="edit col-lg-2">编辑资料</button>
+        </div>
+    </div>
+    <!-- 浏览菜单 -->
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">浏览历史</a></li>
+        <li role="presentation"><a href="#">收藏</a></li>
+        <li role="presentation"><a href="#">评论</a></li>
+    </ul>
+</div>
+<!--Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy;LB CourseRecommend 2019</p>
+    </div>
+</footer>
+
+<!--Bootstrap core Javascript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
